@@ -14,10 +14,10 @@
   </head>
   <body>
     <main class="container mt-5">
-      <h1 class="fs-5">Terrier &mdash; The dogs API Project</h1>
+      <h1 class="fs-5 mb-3">Terrier &mdash; The dogs API Project</h1>
 
       <!-- select -->
-      <div class="form-floating">
+      <div class="form-floating mb-3">
         <select
           class="form-select"
           aria-label="Select Dog Breed"
@@ -28,8 +28,43 @@
         </select>
         <label for="Select Breed">Select Breed</label>
       </div>
+
+      <!-- Carusel -->
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide w-100 mb-3"
+        data-bs-ride="carousel"
+      >
+
+      <!-- Carusel Container -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://placehold.co/400"
+              class="d-block w-100 rounded w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://placehold.co/401"
+              class="d-block w-100 rounded w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://placehold.co/402"
+              class="d-block w-100 rounded w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+      </div>
+      <p class="lead">Wait for image slide</p>
     </main>
 
+    <!-- Script -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
