@@ -31,7 +31,7 @@ async function getDogImages(breed) {
 async function renderOptions() {
   const breedList = await getDogsList();
 
-  for (breed of breedList) {
+  for (let breed of breedList) {
     const option = document.createElement("option");
     option.textContent = breed[0].toUpperCase() + breed.slice(1).toLowerCase();
     option.value = breed;
@@ -64,4 +64,3 @@ selectEl.addEventListener("change", function (e) {
 });
 
 renderCarousel("affenpinscher");
-
