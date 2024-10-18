@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap");
+
+body {
+  min-height: calc(100vh - 3rem);
+  background: linear-gradient(
+    109.5deg,
+    rgb(13, 11, 136) 9.4%,
+    rgb(86, 255, 248) 78.4%
+  );
+  font-family: "Teachers", sans-serif;
+  color: white;
+}
